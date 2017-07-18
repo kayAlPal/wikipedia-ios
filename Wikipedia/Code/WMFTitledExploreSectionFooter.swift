@@ -14,6 +14,7 @@ class WMFTitledExploreSectionFooter: WMFExploreCollectionReusableView, Themeable
         titleLabel.textColor = theme.colors.primaryText
         descriptionLabel.textColor = theme.colors.secondaryText
         backgroundColor = theme.colors.midBackground
-        enableLocationButton.borderColor = theme.colors.link
+        enableLocationButton.borderColor = UIColor.magenta
+
     }
 }
